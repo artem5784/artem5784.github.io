@@ -1,0 +1,22 @@
+#greyline {
+  height:42px;
+  width:850px;
+  position:absolute;
+  background-color:transparent;
+  background-image:url(images/greyline.gif);
+  background-repeat:no-repeat;
+  background-position:left;
+  margin-left:23px;
+  margin-top:91px;
+  line-height:42px;
+  color:#c2c2c2;
+  font-size:16px;
+  font-family:Verdana, Tahoma, Arial;
+  font-weight:bold;
+}
+#contactline {
+  padding-top:210px;
+  height:120px;
+  width:901px;
+  position:absolute;
+}

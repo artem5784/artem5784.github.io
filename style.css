@@ -1,0 +1,325 @@
+* {
+  padding:0;
+  margin:0;
+}
+body {
+  background-color:#2f73c8;
+  background-image:url(images/bg.gif);
+  background-repeat:repeat-x;
+  background-position:top;
+  color:#ffffff;
+  font-size:12px;
+  font-family:Arial, Tahoma, Verdana;
+}
+a {
+  color:#fdf18e;
+  font-size:14px;
+  font-family:Arial, Tahoma, Verdana;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+#page {
+  width:901px;
+  margin:0 auto;
+}
+#greyline {
+  height:42px;
+  width:850px;
+  position:absolute;
+  background-color:transparent;
+  background-image:url(images/greyline.gif);
+  background-repeat:no-repeat;
+  background-position:left;
+  margin-left:23px;
+  margin-top:37px;
+  //margin-top:91px;
+  line-height:42px;
+  color:#c2c2c2;
+  font-size:16px;
+  font-family:Verdana, Tahoma, Arial;
+  font-weight:bold;
+}
+#greylinel {
+  background-color:#ececec;
+  float:left;
+  margin-left:46px;
+  //margin-left:26px;
+}
+#greyliner {
+  float:right;
+  margin-right:210px;
+  //margin-right:105px;
+}
+#topgirl {
+  height:534px;
+  width:565px;
+  position:absolute;
+  top:5px;
+  margin-left:337px;
+  background-color:transparent;
+  background-image:url(images/topgirl.jpg);
+  background-repeat:no-repeat;
+}
+#medal {
+  height:292px;
+  width:186px;
+  position:absolute;
+  margin-left:361px;
+  //margin-top:36px;
+  background-color:transparent;
+  background-image:url(images/medal.png);
+  background-repeat:no-repeat;
+}
+#top {
+  height:510px;
+  margin-top:54px;
+  //padding-top:54px;
+  background-color:transparent;
+}
+#ttl {
+  height:510px;
+  background-image:url(images/ttl.gif);
+  background-repeat:no-repeat;
+  background-position:top left;
+}
+#ttr {
+  height:510px;
+  background-image:url(images/ttr.gif);
+  background-repeat:no-repeat;
+  background-position:top right;
+}
+#tbb {
+  height:510px;
+  background-image:url(images/tbb.gif);
+  background-repeat:repeat-x;
+  background-position:bottom;
+}
+#tbl {
+  height:510px;
+  background-image:url(images/tbl.gif);
+  background-repeat:no-repeat;
+  background-position:bottom left;
+}
+#tbr {
+  height:510px;
+  background-image:url(images/tbr.gif);
+  background-repeat:no-repeat;
+  background-position:bottom right;
+}
+#contactline {
+  padding-top:170px;
+  //padding-top:206px;
+  height:120px;
+  width:901px;
+  position:absolute;
+}
+#call {
+  float:left;
+  margin-left:40px;
+  //margin-left:20px;
+}
+#faq {
+  float:right;
+  width:70px;
+}
+#faq a img {
+  opacity:0.8;
+  -moz-opacity:0.8;
+  filter:alpha(opacity=40);
+}
+#faq a:hover img {
+  opacity:1.0;
+  -moz-opacity:1.0;
+  filter:alpha(opacity=40);
+}
+.call {
+  color:#252525;
+  font-size:60px;
+  font-weight:bold;
+  font-family:Verdana, Tahoma, Arial;
+  text-transform:uppercase;
+}
+.phone {
+  color:#df1193;
+  font-size:25px;
+  font-weight:bold;
+  font-family:Verdana, Tahoma, Arial;
+}
+#price {
+  height:30px;
+  width:470px;
+  background-color:transparent;
+  margin-left:72px;
+  position:absolute;
+  top:365px;
+  color:#a1a1a1;
+  font-size:14px;
+  font-family:Arial, Tahoma, Verdana;
+}
+#girls {
+  height:135px;
+  width:600px;
+  background-color:transparent;
+  margin-left:40px;
+  position:absolute;
+  top:389px;
+}
+#girl1 {
+  float:left;
+  height:135px;
+  width:135px;
+  background-image:url(images/girl1.jpg);
+  background-repeat:no-repeat;
+}
+#girl2 {
+  float:left;
+  height:135px;
+  width:135px;
+  background-image:url(images/girl2.jpg);
+  background-repeat:no-repeat;
+  margin-left:30px;
+}
+#girl3 {
+  float:left;
+  height:135px;
+  width:135px;
+  background-image:url(images/girl3.jpg);
+  background-repeat:no-repeat;
+  margin-left:30px;
+}
+#ourgirls {
+  height:72px;
+  line-height:62px;
+  color:#ffffff;
+  font-size:23px;
+  font-family:MinionPro, Tahoma, Verdana;
+  text-align:center;
+}
+
+.ourgirls2 {
+  color:#ffffff;
+  font-size:26px;
+  font-family:MinionPro, Tahoma, Verdana;
+  text-align:center;
+}
+.heart {
+  margin-left:15px;
+  margin-right:15px;
+}
+.block {
+  float:left;
+  width:206px;
+  min-width:206px;
+  text-align:center;
+  margin-bottom:22px;
+}
+.blocktop {
+  width:206px;
+  height:30px;
+  background-image:url(images/blocktop.png);
+  background-repeat:no-repeat;
+  background-position:top;
+}
+.blockbottom {
+  width:206px;
+  height:30px;
+  background-image:url(images/blockbottom.png);
+  background-repeat:no-repeat;
+  background-position:bottom;
+}
+.blockmain {
+  background-color:#ffffff;
+  margin-left:1px;
+}
+.widther {
+  float:left;
+  width:25px;
+  height:27px;
+}
+.name {
+  color:#E7199B;
+  font-size:16px;
+  font-weight:bold;
+  font-family:Arial, Tahoma, Verdana;
+}
+.code {
+  color:#959595;
+  font-size:14px;
+  font-family:Tahoma, Verdana, Arial;
+}
+.artikul {
+  color:#000000;
+  font-size:16px;
+  font-weight:bold;
+  font-family:Arial, Tahoma, Verdana;
+}
+
+.faq{
+  color:#fff;
+  font-size:18px;
+  font-weight:normal;
+  font-family:Arial, Tahoma, Verdana;
+}
+
+#partner {
+font-size:26px;
+  text-align:center;
+}
+#bottom {
+  height:123px;
+  background-color:#ffffff;
+  margin-top:20px;
+}
+#btl {
+  height:123px;
+  background-image:url(images/btl.gif);
+  background-repeat:no-repeat;
+  background-position:top left;
+}
+#btr {
+  height:123px;
+  background-image:url(images/btr.gif);
+  background-repeat:no-repeat;
+  background-position:top right;
+}
+#bottomlinks {
+  color:#e7199b;
+  font-size:12px;
+  font-family:Arial, Tahoma, Verdana;
+}
+#bottomlinks a {
+  color:#e7199b;
+  font-size:12px;
+  font-family:Arial, Tahoma, Verdana;
+  text-decoration:none;
+}
+#bottomlinks a:hover {
+  text-decoration:underline;
+}
+.blleft {
+  float:left;
+  margin-left:25px;
+  margin-top:15px;
+}
+.blright {
+  float:right;
+  margin-top:15px;
+  margin-right:30px;
+}
+#copy {
+  clear:both;
+  padding-top:20px;
+  margin-left:20px;
+  margin-right:10px;
+  background-image:url(images/whiteheart.gif);
+  background-repeat:no-repeat;
+  background-position:bottom right;
+  color:#c2c2c2;
+  font-size:11px;
+  font-family:Verdana, Tahoma, Arial;
+}
+img, div {
+  behavior:url(iepngfix.htc)
+}
